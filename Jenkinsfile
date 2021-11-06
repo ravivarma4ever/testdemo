@@ -6,6 +6,6 @@ node('LINUX'){
              println "Deployment is success"
         sh '''terraform init
         terraform plan 
-        terraform apply'''
+        terraform apply -y'''
     }
 }
