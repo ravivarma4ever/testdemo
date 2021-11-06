@@ -6,6 +6,6 @@ node('LINUX'){
              println "Deployment is success"
         sh '''terraform init
         terraform plan 
-        terraform apply --auto-approve yes'''
+        terraform apply --auto-approve=yes'''
     }
 }
