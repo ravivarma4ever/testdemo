@@ -4,6 +4,8 @@ node('LINUX'){
     }
     stage('deploy'){
              println "Deployment is success"
-        
+        sh '''terraform init
+        terraform plan 
+        terraform apply --auto-approve yes'''
     }
 }
