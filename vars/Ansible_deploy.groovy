@@ -1,3 +1,3 @@
 def call(){
- sh "Ansible deployment" 
+ sh "echo 'Ansible deployment'" 
 }
