@@ -8,6 +8,10 @@ void msg()
      username = demo
      password = password
  }  
+ void msg()
+ {
+    System.out.println("Hello to the world");   
+ }
        
 }  
 //save by DefaultExample2.java  
