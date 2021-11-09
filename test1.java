@@ -12,7 +12,7 @@ void msg()
 }  
 //save by DefaultExample2.java  
 package com.javatpoint;  
-import com.java.test;  
+import com.java.test1;  
   
 public class DefaultExample2 {  
 public static void main(String[] args) {  
