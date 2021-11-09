@@ -47,7 +47,7 @@ public static void main(String[] args) {
     doSomething();
     break;
   default: // default clause should be the last one
-    error();
+    //error();
     break;
   case 1:
     doSomethingElse();
