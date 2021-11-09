@@ -10,6 +10,11 @@ void msg()
         if (username.equals('demo')){
         System.out.println("Hello to the world");       
       }
+    int target = -5;
+int num = 3;
+
+target =- num;  // Noncompliant; target = -3. Is that really what's meant?
+target =+ num; // Noncompliant; target = 3
  }  
  void msg()
  {
