@@ -13,6 +13,9 @@ void msg()
     System.out.println("Hello to the world");   
     username = demo
     password = password
+      if (username.equals('demo')){
+        System.out.println("Hello to the world");       
+      }
  }
        
 }  
