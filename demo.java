@@ -7,6 +7,9 @@ void msg()
      System.out.println("Try to access default method outside the package ");  
      username = "demo"
      password = "password"
+        if (username.equals('demo')){
+        System.out.println("Hello to the world");       
+      }
  }  
  void msg()
  {
