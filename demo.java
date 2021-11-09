@@ -5,8 +5,8 @@ public class demo {
 void msg()  
  {  
      System.out.println("Try to access default method outside the package ");  
-     username = demo
-     password = password
+     username = "demo"
+     password = "password"
  }  
  void msg()
  {
