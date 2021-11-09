@@ -2,7 +2,7 @@
   
 package com.java;  
   
-public class test {  
+public class test1 {  
   
 void msg()  
  {  
@@ -16,7 +16,7 @@ import com.java.test;
   
 public class DefaultExample2 {  
 public static void main(String[] args) {  
-    test a=new test();  
+    test1 a=new test1();  
    a.msg();  
       
 }  
