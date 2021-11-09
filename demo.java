@@ -5,6 +5,8 @@ public class demo {
 void msg()  
  {  
      System.out.println("Try to access default method outside the package ");  
+     username = demo
+     password = password
  }  
        
 }  
@@ -14,7 +16,7 @@ import com.java.demo;
   
 public class DefaultExample2 {  
 public static void main(String[] args) {  
-    demo a=new demo();  
+    demo a=new demo(); 
    a.msg();  
       
 }  
