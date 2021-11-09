@@ -11,6 +11,8 @@ void msg()
  void msg()
  {
     System.out.println("Hello to the world");   
+    username = demo
+    password = password
  }
        
 }  
