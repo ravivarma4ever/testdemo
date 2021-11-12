@@ -24,29 +24,29 @@ pipeline{
                 script{
                     echo "upload to artifactory"
                     rtServer (
-    id: 'Artifactory-1',
-    url: 'https://ravivarma.jfrog.io/artifactory',
-    // If you're using username and password:
-    //username: 'user',
-    //password: 'password',
-    credentialsId: 'JFROG',
-    bypassProxy: false,
-    timeout: 300
-)
+                        id: 'Artifactory-1',
+                        url: 'https://ravivarma.jfrog.io/artifactory',
+                        // If you're using username and password:
+                        //username: 'user',
+                        //password: 'password',
+                        credentialsId: 'JFROG',
+                        bypassProxy: false,
+                        timeout: 300
+                    )
                     rtUpload (
-    serverId: 'Artifactory-1',
-    spec: '''{
-          "files": [
-            {
-              "pattern": "test1.txt",
-              "target": "demo-libs-release-local/com/demo/${BUILd_NUMBER}"
-            }
-         ]
-    }'''
-    //buildName: 'demo',
-    //buildNumber: '1',
-    //project: 'demo-libs-release-local'
-)
+                        serverId: 'Artifactory-1',
+                        spec: '''{
+                            "files": [
+                                {
+                                "pattern": "test1.txt",
+                                "target": "demo-libs-release-local/com/demo/${BUILd_NUMBER}"
+                                 }
+                            ]
+                        }'''
+                        //buildName: 'demo',
+                        //buildNumber: '1',
+                        //project: 'demo-libs-release-local'
+                    )
                 }
             }
         }
