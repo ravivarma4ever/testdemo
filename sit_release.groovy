@@ -39,7 +39,7 @@ pipeline{
                             "files": [
                                 {
                                 "pattern": "test1.txt",
-                                "target": "demo-libs-release-local/com/demo/${BUILd_NUMBER}"
+                                "target": "demo/com/demo/${BUILd_NUMBER}"
                                  }
                             ]
                         }'''
