@@ -1,5 +1,5 @@
 Add  new file
-Username: admin
-password: P@assword
+Username: YWRtaW4K
+password: UEBhc3N3b3JkCg==
 URL: demo.ravivarna.com
 IP: 10.192.168.24
