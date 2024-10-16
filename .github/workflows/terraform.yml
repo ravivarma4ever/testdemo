@@ -46,7 +46,7 @@ name: 'Terraform'
 
 on:
   schedule:
-    - cron: '*/10 * * * *'
+    - cron: '*/5 * * * *'
   pull_request:
 
 permissions:
