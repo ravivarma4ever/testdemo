@@ -1,6 +1,6 @@
 name: 'Scheduler'
 on:
-  schedule:
+  schedules:
     - cron: '*/10 * * * *'
   push: 
 
